@@ -1,8 +1,7 @@
-#!/usr/bin/env bash
 
-dataset="$1"
-datadir="$2"
-task="$3"
+dataset="CNNDM" #[CNNDM || MultiNews]
+datadir="data/CNNDM" #[data/CNNDM || data/MultiNews]
+task="single" #[single || multi]
 
 
 # -u to check bounded args, -e to exit when error
