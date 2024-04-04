@@ -97,6 +97,7 @@ def run_training(model, train_loader, valid_loader, valset, hps, train_dir):
     non_descent_cnt = 0
     saveNo = 0
     writer = SummaryWriter('runs/exp1')
+    step = 0
     for epoch in range(1, hps.n_epochs + 1):
         epoch_loss = 0.0
         train_loss = 0.0
@@ -134,6 +135,8 @@ def run_training(model, train_loader, valid_loader, valset, hps, train_dir):
 
             train_loss += float(loss.data)
             epoch_loss += float(loss.data)
+            writer.add_scalar('Loss/train', float(loss.data), step)
+            step += 1
 
             if i % 100 == 0:
                 if _DEBUG_FLAG_:
@@ -143,7 +146,6 @@ def run_training(model, train_loader, valid_loader, valset, hps, train_dir):
                             logger.debug(param.grad.data.sum())
                 logger.info('       | end of iter {:3d} | time: {:5.2f}s | train loss {:5.4f} | '
                                 .format(i, (time.time() - iter_start_time),float(train_loss / 100)))
-                writer.add_scalar('Loss/train', float(train_loss / 100), i//100)
                 train_loss = 0.0
 
         if hps.lr_descent:
