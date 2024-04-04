@@ -11,7 +11,7 @@ import torch
 from rouge import Rouge
 from tools import utils
 
-from HHGraphSum import HSumGraph, HSumDocGraph
+from HHGraphSum import HHGraphSum, HHDocGraphSum
 from tensorboardX import SummaryWriter
 import warnings
 warnings.filterwarnings("ignore")
