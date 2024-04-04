@@ -10,6 +10,7 @@ import numpy as np
 import torch
 from rouge import Rouge
 from tools import utils
+from tqdm import tqdm
 
 from HHGraphSum import HHGraphSum, HHDocGraphSum
 from tensorboardX import SummaryWriter
