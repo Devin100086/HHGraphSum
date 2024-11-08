@@ -44,10 +44,10 @@ Our environment has been tested on Linux, CUDA 11.8 with one 2080Ti.
 
 3. prepare the data and train the model
 
-       ```shell
-         sh bash/PrepareDataset.sh
-         sh bash/train.sh
-       ```
+   ```shell
+      sh bash/PrepareDataset.sh
+      sh bash/train.sh
+   ```
 
 4. prepare the data and train the model
    ```shell
