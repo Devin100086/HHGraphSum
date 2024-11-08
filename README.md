@@ -54,6 +54,8 @@ Our environment has been tested on Linux, CUDA 11.8 with one 2080Ti.
    sh bash/test.sh
    ```
 
-## Acknowledgements
+## Reference
 
-This work is partially supported by Natural Science Foundation of China under Grant No. U20A20196
+waiting for update......
+
+
