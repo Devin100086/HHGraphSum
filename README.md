@@ -38,9 +38,9 @@ Our environment has been tested on Linux, CUDA 11.8 with one 2080Ti.
 
 2. Download the datasets and pretrained model
 
-   - CNNDM: https://cs.nyu.edu/~kcho/DMQA/
-   - MultiNews: https://github.com/Alex-Fabbri/Multi-News
-   - Pretrained model Glove: https://apache-mxnet.s3.cn-north-1.amazonaws.com.cn/gluon/embeddings/glove/glove.42B.300d.zip
+   - [CNNDM](https://cs.nyu.edu/~kcho/DMQA/)
+   - [MultiNews](https://github.com/Alex-Fabbri/Multi-News)
+   - [Pretrained model Glove](https://apache-mxnet.s3.cn-north-1.amazonaws.com.cn/gluon/embeddings/glove/glove.42B.300d.zip)
 
 3. prepare the data and train the model
 
