@@ -10,6 +10,7 @@
     <br>
     <sup>1</sup>Zhejiang University of Technology	
  <h3 align="center"><a href="https://www.sciencedirect.com/science/article/pii/S0141938224002488?dgcid=coauthor">Paper</a></h3>
+      
 ## Abstract 
 
 Extractive summarization aims to select important sentences from the document to generate a summary. However, current extractive document summarization methods fail to fully consider the semantic information among sentences and the various relations in the entire document. Therefore, a novel end-to-end framework named hierarchical heterogeneous graph learning for document summarization (HHGraphSum) is proposed in this paper. In this framework, a hierarchical heterogeneous graph is constructed for the whole document, where the representation of sentences is learnt by several levels of graph neural network. The combination of single- direction message passing and bidirectional message passing helps graph learning obtain effective relations among sentences and words. For capturing the rich semantic information, space-time collaborative learning is designed to generate the primary features of sentences which are enhanced in graph learning. For generating a less redundant and more precise summary, a LSTM based predictor and a blocking strategy are explored.Evaluations both on a single-document dataset and a multi-document dataset demonstrate the effectiveness of the HHGraphSum.The code of HHGraphSum is available on Github: https://github.com/Devin100086/HHGraphSum
