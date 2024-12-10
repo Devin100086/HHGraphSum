@@ -2,7 +2,7 @@
 
   <p align="center">
     <span>Pengyi Hao<sup>*1</sup>,</span>
-    <a href="https://github.com/Devin100086">Cunqi Wu</a><sup>*1</sup>,
+    <a href="https://devin100086.github.io/">Cunqi Wu</a><sup>*1</sup>,
     <span>Cong Bai<sup>**1</sup>,
     <br>
     <sup>*</sup>Equal contribution.
