@@ -78,7 +78,7 @@ class TestPipLine():
 
     
 class SLTester(TestPipLine):
-    def __init__(self, model, m, test_dir=None, limited=False, blocking_win=3):
+    def __init__(self, model, m, test_dir=None, limited=False, blocking_win=5):
         super().__init__(model, m, test_dir, limited)
         self.pred, self.true, self.match, self.match_true = 0, 0, 0, 0
         self._F = 0
